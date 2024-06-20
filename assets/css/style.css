@@ -1,0 +1,52 @@
+:root {
+  --primary-color: #e6f4eb;
+  --secondary-color: #cce8d7;
+  --principal-font: "Poppins", sans-serif;
+}
+body {
+  background-color: var(--primary-color);
+  font-family: var(--principal-font);
+}
+h1,
+h2,
+h5 {
+  font-weight: 700;
+}
+.bg-modified-secondary {
+  background-color: var(--secondary-color);
+}
+.hero {
+  padding: 100px 50px;
+}
+.hero-img {
+  max-width: 300px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(108%);
+}
+.certificaciones-img {
+  max-width: 100px;
+}
+@media (min-width: 768px) {
+  .hero-img {
+    max-width: 400px;
+  }
+  .certificaciones-img {
+    max-width: 300px;
+  }
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+.testimonial-img {
+  border-radius: 50%;
+  width: 150px;
+}
+.servicios-img {
+  width: 80px;
+}
+.padding-section {
+  padding: 70px 0;
+}
