@@ -3,7 +3,7 @@
   <div class="descripcion container padding-section">
     <h2 class="text-center mb-5">Acerca de</h2>
     <div class="row justify-content-center align-items-center">
-      <div class="col-md-8 col-lg-6 mb-sm-3 mb-md-3 mb-lg-0">
+      <div class="col-md-8 col-lg-6 mb-3 mb-lg-0">
         <img src="<?php echo base_url('assets/img/acercaDe.jpg') ?>" alt="Imagen acerca de nosotros" class="img-fluid">
       </div>
       <div class="col-md-8 col-lg-6">
