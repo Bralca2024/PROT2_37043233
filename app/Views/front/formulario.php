@@ -6,17 +6,17 @@
       <!-- Nombre input -->
       <div class="mb-3">
         <label for="formName" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="formName" required>
+        <input type="text" class="form-control" id="formName" required placeholder = "Ingrese su nombre">
       </div>
       <!-- Apellido input -->
       <div class="mb-3">
         <label for="formSurname" class="form-label">Apellido</label>
-        <input type="text" class="form-control" id="formSurname" required>
+        <input type="text" class="form-control" id="formSurname" required placeholder = "Ingrese su apellido">
       </div>
       <!-- Correo input -->
       <div class="mb-3">
         <label for="formEmail" class="form-label">Correo Electrónico</label>
-        <input type="email" class="form-control" id="formEmail" aria-describedby="emailHelp" required>
+        <input type="email" class="form-control" id="formEmail" aria-describedby="emailHelp" required placeholder = "ejemplo@correo.com">
       </div>
       <!-- Categoria select -->
       <div class="mb-3">
