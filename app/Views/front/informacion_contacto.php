@@ -1,7 +1,7 @@
 <!-- Información de contacto -->
 <section class="informacion">
   <div class="bg-modified-secondary datos padding-section">
-    <h2 class="text-center mb-5">Datos más relevantes</h2>
+    <h2 class="text-center mb-5">Información de contacto</h2>
     <div class="container">
       <div class="d-flex flex-column flex-md-row gap-1 mx-auto">
         <div class="col-md-6 d-flex flex-column align-items-start justify-content-center bg-light p-5">
