@@ -9,9 +9,9 @@ class Home extends BaseController
     echo view('front/head_view');
     echo view('front/navbar_view');
     echo view('front/principal');
-    echo view('front/certificaciones_view');
-    echo view('front/cursos_view');
-    echo view('front/testimoniales_view');
+    echo view('front/certificaciones');
+    echo view('front/cursos');
+    echo view('front/testimoniales');
     echo view('front/footer_view');
   }
   public function formulario()
