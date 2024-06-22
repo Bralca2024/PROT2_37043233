@@ -27,9 +27,14 @@
           </button>
         </div>
       </form>
-      <div class="button row-gap-3 mt-3 mt-sm-3 mt-lg-0">
-        <a href="<?php echo base_url('login') ?>" class="btn btn-success">Iniciar sesión</a>
-        <a href="<?php echo base_url('registro') ?>" class="btn btn-secondary">Registrarse</a>
+      <div class="dropdown mt-3 mt-lg-0">
+        <button type="button" class="btn btn-success dropdown-toggle " data-bs-toggle="dropdown">
+          Cuenta de usuario
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="<?php echo base_url('login') ?>">Iniciar sesión</a></li>
+          <li><a class="dropdown-item" href="<?php echo base_url('registro') ?>">Registrarse</a></li>
+        </ul>
       </div>
     </div>
   </div>

@@ -18,7 +18,7 @@
    </div>
  </footer>
 
- <script src="public/bootstrap-5.3.3/js/bootstrap.min.js"></script>
+ <script src="public/bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
  <script src="public/bootstrap-5.3.3/js/popper.min.js"></script>
  </body>
 
